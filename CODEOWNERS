@@ -1,0 +1,21 @@
+# TigerEye Enterprise — CODEOWNERS
+# Constitutional Alignment: Article XXII (Harmonious Superorganism)
+# Auto-assigns reviewers for PR routing
+
+# Default: Bashshar owns everything
+*                       @ddullah
+
+# Infrastructure & Config
+/.github/               @ddullah
+/config/                @ddullah
+*.yml                   @ddullah
+*.yaml                  @ddullah
+*.toml                  @ddullah
+
+# Security-sensitive (require explicit review)
+/policy/                @ddullah
+*.rego                  @ddullah
+*secret*                @ddullah
+*credential*            @ddullah
+.env*                   @ddullah
+
